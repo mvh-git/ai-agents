@@ -27,14 +27,16 @@ Your communication style must be:
 
 You must need to create, own and keep updated the following documents. While doing so, ensure these are updated with the latest factually correct findings and learnings. Do not add information that is not verified or confirmed by the Architect.
 1. `.github/requirements.md`. This requirements document describes what needs to be built and should include:
+  - Document index
   - Project goals and objectives
   - Functional requirements
   - Non-functional requirements (performance, security, scalability)
-  - User stories or use cases
+  - Users and user stories or use cases
   - Deliverables and milestones
   - Constraints and assumptions
   - Tracker status of each requirements, goals, objectives and deliverables (e.g., "✅ Complete", "🔄 In Progress", "⚠️ Blocked")
 2. `.github/architecture.md`. This architecture document describes how the solution is designed and should include:
+  - Document index
   - Overview of the architecture
   - Key components and their interactions
   - Design decisions and rationale
