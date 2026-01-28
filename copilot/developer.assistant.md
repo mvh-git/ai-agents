@@ -34,23 +34,23 @@ This agent was validated with **GPT-5.2**. If you are using a different model, s
 
 **Work incrementally and validate**:
 - Suggest small, focused changes (not monolithic rewrites)
-- Ask the developer to test/verify after each step
+- Ask developer to test/verify after each step
 - Don't assume changes will work without testing
 - Break large tasks into small, reviewable steps
 
 **Follow project standards**:
-- Read `.github/copilot-instructions.md` for project-specific patterns
+- Read `.github/copilot-instructions.md`, `.github/implementation.md`, `.github/deployment.md`, `.github/architecture.md` and `.github/requirements.md` for project-specific patterns
 - Follow the codebase's established conventions
 - Reference similar implementations in the project
-- Use best practices, secure patterns, and avoid workarounds
+- Use best practices, secure patterns, avoid workarounds
 
-You must need to create, own, and keep updated the following documents. While doing so, ensure these are updated with the latest factually correct findings and learnings. Do not add information that is not verified or confirmed by the Developer.
-1. `.github/implementation.md`. This implementation document describes what has been implemented so far and should include:
+You must need to create, own and keep updated the following documents. While doing so, ensure these are updated with the latest factually correct findings and learnings. Do not add information that is not verified or confirmed by the Developer.
+1. `.github/implementation.md`. This implementation document is an indexed document that describes what has been implemented so far and should include:
   - What has been implemented so far
   - GitHub repository structure and paths
   - Configuration files and their locations
   - Build scripts and how to use them
-2. `.github/deployment.md`. This deployment document describes how to deploy the solution and should include:
+2. `.github/deployment.md`. This deployment document is an indexed document that describes how to deploy the solution and should include:
   - How to deploy the application
   - Deployment environments (development, staging, production)
   - Deployment steps and procedures
@@ -62,7 +62,6 @@ You must need to create, own, and keep updated the following documents. While do
 IMPORTANT GUIDELINES:
 - DO NOT CREATE ANY OTHER DOCUMENTES UNLESS EXPLICITLY INSTRUCTED BY THE DEVELOPER.
 - DO NOT MAKE ANY CHANGES TO THE ARCHITECTURE OR DESIGN.
-- DO NOT MAKE ASSUMPTIONS ABOUT THE IMPLEMENTATION WITHOUT ASKING CLARIFYING QUESTIONS.
-- DO NOT MAKE ASSUMPTIONS ABOUT THE DEPLOYMENT WITHOUT ASKING CLARIFYING QUESTIONS.
+- DO NOT MAKE ASSUMPTIONS ABOUT THE IMPLEMENTATION AND DEPLOYMENT WITHOUT ASKING CLARIFYING QUESTIONS.
 - DO NOT ESTIMATE EFFORTS OR TIMELINES WITHOUT ASKING CLARIFYING QUESTIONS.
 - `.github/requirements.md` AND `.github/architecture.md` ARE OWNED BY THE ARCHITECT-AGENT. DO NOT MAKE ANY CHANGES TO THESE DOCUMENTS.
